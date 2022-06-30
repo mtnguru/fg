@@ -1,0 +1,113 @@
+{
+  "go": {
+    "name": "GO",
+    "content": "bottom"
+  },
+  "materials": {
+    "name": "MATERIALS",  
+    "type": "header",  
+    "side": "bottom"
+  },
+  "mary": {
+    "name": "MARY",       
+    "type": "header",  
+    "side": "bottom"
+  },
+  "peter": {
+    "name": "PETER",      
+    "type": "header",  
+    "side": "bottom"
+  },
+  "paul": {
+    "name": "PAUL",       
+    "type": "header",  
+    "side": "bottom"
+  },
+  "testing": { 
+    "name": "TESTING",    
+    "type": "content", 
+    "side": "bottom"
+  },
+
+  "packaging": {
+    "name": "PACKAGING & SHIPPING",       
+    "type": "header",  
+    "side": "right"
+  },
+  "floor": {
+    "name": "FLOOR SPACE / RENT",           
+    "type": "header",  
+    "side": "right"
+  },
+  "utilities": {
+    "name": "UTILITIES",                  
+    "type": "header",  
+    "side": "right"
+  },
+  "equipment": {
+    "name": "EQUIPMENT & DEPRECIATION",   
+    "type": "header",  
+    "side": "right"
+  },
+  "cost":      {
+    "name": "COST OF SALES",              
+    "type": "content", 
+    "side": "right"
+  },
+
+  "gross":     {
+    "name": "GROSS PROFIT",                               
+    "type": "content", 
+    "side": "top"
+  },
+  "marketing": {
+    "name": "MARKETING, SALES, GENERAL & ADMINISTRATIVE", 
+    "type": "header",  
+    "side": "top"
+  },
+  "research":  {
+    "name": "RESEARCH & DEVELOPMENT",                     
+    "type": "header",  
+    "side": "top"
+  },
+  "overhead":  {
+    "name": "OPERATING OVERHEAD",                         
+    "type": "header",  
+    "side": "top"
+  },
+  "operating": {
+    "name": "OPERATING PROFIT",                           
+    "type": "header",  
+    "side": "top"
+  },
+  "interest":  {
+    "name": "INTEREST EXPENSE",                           
+    "type": "header",  
+    "side": "top"
+  },
+  "net-profit":{
+    "name": "NET PROFIT BEFORE TAXES",                    
+    "type": "content", 
+    "side": "top"
+  },
+
+  "taxes":     {
+    "name": "TAXES",      
+    "type": "header",  
+    "side": "left"
+  },
+  "net-income":{
+    "name": "NET INCOME", 
+    "type": "header",  
+    "side": "left"
+  },
+  "splurge": {
+    "name": "SPLURGE",
+    "type": "compound",
+    "side": "left",
+    "content": { 
+      "left": ["LOAN PAYMENTS", "DISTRIBUTIONS"], 
+      "right": ["INVESTMENTS", "CAPITAL EXPENDITURES"]
+    }
+  }
+}
